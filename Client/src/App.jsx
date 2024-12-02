@@ -8,6 +8,9 @@ import Service from "./pages/Service"
 import UserManagement from "./pages/UserManagement"
 import Profile from "./pages/Profile"
 import Settings from "./pages/Settings"
+import Bookshop from "./pages/Bookshop"
+import Restaurant from './pages/Restaurant'
+import Bottlewater from "./pages/Bottlewater"
 
 const App = () => {
   return (
@@ -23,6 +26,11 @@ const App = () => {
           <Route path='/profile' element={<Profile />} />
           <Route path='/settings' element={<Settings />} />
           <Route path="/" element={<Login />} />
+          <Route path='/inventory/bookshop' element={<Bookshop />} />
+          <Route path='/inventory/restaurant' element={<Restaurant />} />
+          <Route path='/inventory/bottle-water' element={<Bottlewater />} />
+          <Route path='/inventory/grocery' element={<header />} />
+          
         </Routes>
       </Router>
     </>

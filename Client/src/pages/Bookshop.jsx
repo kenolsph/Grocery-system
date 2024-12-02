@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SidebarWithRoleControl from '../components/SidebarWithRoleControl'; // Import the SidebarWithRoleControl
 import { AuthProvider } from '../components/Auth';
 
-const Inventory = () => {
+const Bookshop = () => {
     // Sample inventory data
     const [inventory, setInventory] = useState([
         { id: 1, model: 'iPhone 13', price: 799, quantity: 10 },
@@ -26,7 +26,7 @@ const Inventory = () => {
         ));
     };
 
-    const handleInputChange = (e) => { 
+    const handleInputChange = (e) => {
         const { name, value } = e.target;
         setNewPhone({ ...newPhone, [name]: value });
     };
@@ -49,14 +49,14 @@ const Inventory = () => {
             <div className="home-page flex flex-row w-full min-h-screen">
                 <SidebarWithRoleControl />
                 <div className="ml-64 w-full bg-[#f4f4f4] p-8">
-                    <h1 className="text-3xl font-bold mb-6">Inventory</h1>
+                    <h1 className="text-3xl font-bold mb-6">Bookshop</h1>
 
                     {/* Add New Phone Card */}
                     <div className="bg-white p-6 rounded-lg shadow-md mb-6">
-                        <h2 className="text-xl font-semibold mb-4">Add New Phone</h2>
+                        <h2 className="text-xl font-semibold mb-4">Add New Book</h2>
                         <form onSubmit={handleAddPhone}>
                             <div className="mb-4">
-                                <label className="block text-gray-700">Model</label>
+                                <label className="block text-gray-700">Genre</label>
                                 <input
                                     type="text"
                                     name="model"
@@ -92,7 +92,7 @@ const Inventory = () => {
                                 type="submit"
                                 className="bg-blue-500 text-white px-4 py-2 rounded-md"
                             >
-                                Add Phone
+                                Add Book
                             </button>
                         </form>
                     </div>
@@ -139,7 +139,7 @@ const Inventory = () => {
     );
 };
 
-export default Inventory;
+export default Bookshop;
 
 
 

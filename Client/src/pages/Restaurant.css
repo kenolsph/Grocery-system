@@ -1,0 +1,163 @@
+.bg-img2{
+    background-image: url('../assets/banner.jpg');
+    height: 47vh;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  .fit2{
+text-align: center;
+margin-top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+  }
+  .features1{
+background: #ff7800;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0 100%, 7% 50%, 0 0);
+  }
+
+  .card2{
+    background-color: white;
+    border: 1px solid black; 
+    border-radius: 1px;
+    margin-left: 60px;
+    padding: 40px;
+    margin-left: 100px;
+    text-align: center;
+    display: inline-block;
+  }
+  .card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  outline: .1rem solid black;
+  }
+
+  .card3{
+    background-color: white;
+    border: 1px solid black; 
+    border-radius: 1px;
+    margin-left: 60px;
+    margin-left: 100px;
+    text-align: center;
+    display: inline-block;
+  }
+  .card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  outline: .1rem solid black;
+  }
+  
+  .featur{
+    background: #ff7800;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0 100%, 7% 50%, 0 0);
+  }
+
+  .ratings{
+    color: #ff7800;
+
+  }
+
+  .cart{
+        background-color: white;
+        border: 1px solid black; 
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-top: 40px;
+        padding: 40px;
+        margin-left: 10px;
+        text-align: center;
+        display: inline-block;
+      }
+      .cart:hover{
+      transform: scale(1.1);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      outline: .1rem solid black;
+      }
+
+      .opo{
+        max-width: 120px;
+        border-radius: 50%;
+        margin-left: 50px;
+        padding-left: 10px;
+      }
+
+      .stel{
+        background-color: white;
+        margin-top: 40px;
+        border: 1px solid black;
+        border-radius: 1px;
+        margin-left: 40px;
+        padding: 40px;
+        border-radius: 5px;
+        text-align: center;
+        display: inline-block;
+      }
+
+      .stel1{
+        background-color: white;
+        margin-top: 40px;
+        border: 1px solid black;
+        border-radius: 1px;
+        margin-left: 160px;
+        padding: 40px;
+        border-radius: 5px;
+        text-align: center;
+        display: inline-block;
+      }
+
+      .blogs .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+        gap: 1.5rem;
+      }
+      .blogs .box-container .box {
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+        background: #fff;
+      }
+      .blogs .box-container .box img {
+        object-fit: cover;
+        height: 25em;
+        width: 100%;
+      }
+      .blogs .box-container .box .content {
+        padding: 2rem;
+      }
+      .blogs .box-container .box .content .icons {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0.2rem solid rgba(0, 0, 0, 0.1);
+        padding-bottom: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      .blogs .box-container .box .content .icons a {
+        color: #666;
+        font-size: 1.5rem;
+      }
+      .blogs .box-container .box .content .icons a:hover {
+        color: black;
+      }
+      .blogs .box-container .box .content .icons i {
+        color:#ff7800;
+        margin-right: 0.5rem;
+      }
+      .blogs .box-container .box .content h3 {
+        color: black;
+        font-size: 2.2rem;
+        line-height: 1.8;
+        padding: 0.5rem 0;
+      }
+      .blogs .box-container .box .content p {
+        color: #666;
+        font-size: 1.5rem;
+        line-height: 1.8;
+        padding: 0.5rem 0;
+      }
